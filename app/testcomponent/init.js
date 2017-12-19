@@ -1,3 +1,5 @@
+'use strict'
+
 function init(app) {
 	app.get('/', renderWelcome)
 }
