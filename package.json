@@ -10,8 +10,18 @@
   "author": "Teodora OLARU <teodoraolaru@icloud.com>",
   "license": "ISC",
   "dependencies": {
+    "@okta/jwt-verifier": "0.0.11",
+    "@okta/oidc-middleware": "0.0.15",
+    "@okta/okta-signin-widget": "^2.5.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-redis": "^3.3.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "helmet": "^3.9.0"
+    "express-session": "^1.15.6",
+    "helmet": "^3.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   }
 }
